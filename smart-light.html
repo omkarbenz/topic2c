@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SmartLightControlSystem</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- <section class="jumbotron" id="header">
+        <h1 class="text-center"><b>SIT209: Smart Light Control System</b></h1>
+    </section> -->
+    <header><h1 class="text-center"><b>SIT209: Smart Light Control System</b></h1></header>
+    <section class="row">
+        <section class="col-lg-4 col-md-6 col-sm-12 light" id="bedroom">
+            <img src="bedroom.jpg" alt="" width="100px">
+            <h1 class="text-center">Bed Room</h1>
+        </section>
+        <section class="col-lg-4 col-md-6 col-sm-12 light" id="bathroom">
+            <img src="bathroom.png" alt="" width="100px">
+            <h1>Both Room</h1>
+        </section>
+        <section class="col-lg-4 col-md-6 col-sm-12 light" id="balcony">
+            <img src="Balcony.png" alt="" width="100px">
+            <h1>Balcony</h1>
+        </section>
+    </section>
+    <section class="row">
+        <section class="col-lg-4 col-md-6 col-sm-12 light" id="livingroom">
+            <img src="Living .Room.png" alt="" width="100px">
+            <h1>Living Room</h1>
+        </section>
+        <section class="col-lg-4 col-md-6 col-sm-12 light" id="kitchen">
+            <img src="Kitchen.png" alt="" width="100px">
+            <h1>Kitchen</h1>
+        </section>
+        <section class="col-lg-4 col-md-6 col-sm-12 light" id="outdoor">
+            <img src="Outdoor.png" alt="" width="100px">
+            <h1>Outdoor</h1>
+        </section>
+    </section>
+
+    <section class="col-lg-6 col-md-6 col-sm-6">
+        <select id="light-select">
+            <option value="bedroom"><h2>Bed Room</h2></option>
+            <option value="bathroom">Bathroom</option>
+            <option value="balcony">Balcony</option>
+            <option value="livingroom">Living Room</option>
+            <option value="kitchen">Kitchen</option>
+            <option value="outdoor">Outdoor</option>
+        </select>
+    </section>
+    <section class="col-lg-6 col-md-6 col-sm-6">
+        <input type="color" id="light-color">
+    </section>
+    <script src="light-control.js"></script>
+</body>
+
+</html>
